@@ -1,1 +1,1 @@
-# Programowanie-Aplikacji-WWW
+# Programowanie aplikacji WWW
