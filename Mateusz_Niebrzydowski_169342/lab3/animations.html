@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Language" content="pl">
+        <meta name="Author" content="Mateusz Niebrzydowski">
+        <title>Hodowla żółwia wodnego</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images\favicon.png">
+        <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Animacje</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Strona główna</a></li>
+                    <li><a href="history.html">Historia</a></li>
+                    <li><a href="species.html">Gatunki</a></li>
+                    <li><a href="care.html">Pielęgnacja</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="time.html">Aktualny czas</a></li>
+                    <li><a href="animations.html">Animacje</a></li>
+                </ul>
+            </nav>
+            <section id="animacjaTestowa1" class="text-block">Kliknij, a się powiększę</section>
+            <script>
+                $("#animacjaTestowa1").on("click", function() {
+                    $(this).animate({
+                        width: "500px",
+                        opacity: 0.4,
+                        fontSize: "3em",
+                        borderWidth: "10px"
+                    }, 1500);
+                });
+            </script>
+            <section id="animacjaTestowa2" class="text-block">Najedź kursorem, a się powiększę</section>
+            <script>
+                $("#animacjaTestowa2").on({
+                    "mouseover" : function() {
+                        $(this).animate({
+                            width: 300
+                        }, 800);
+                    },
+                    "mouseout" : function() {
+                        $(this).animate({
+                            width: 200
+                        }, 800);
+                    }
+                });
+            </script>
+            <section id="animacjaTestowa3" class="text-block">Klikaj, abym rósł</section>
+            <script>
+                $("#animacjaTestowa3").on("click", function() {
+                    if (!$(this).is(":animated")) {
+                        $(this).animate({
+                            width: "+=" + 50,
+                            height: "+=" + 10
+                        });
+                    }
+                });
+            </script>
+            <footer>
+                <p>&copy; 2025 Mateusz Niebrzydowski</p>
+            </footer>
+        </div>
+    </body>
+</html>
