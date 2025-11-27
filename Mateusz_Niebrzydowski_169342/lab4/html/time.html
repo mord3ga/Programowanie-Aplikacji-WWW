@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Language" content="pl">
+        <meta name="Author" content="Mateusz Niebrzydowski">
+        <title>BookStore</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+        <script src="../js/timedate.js" type="text/javascript"></script>
+        <script src="../js/kolorujtlo.js" type="text/javascript"></script>
+    </head>
+    <body onload="startclock()">
+        <div id="time" class="container">
+            <header>
+                <h1>Aktualny czas</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Strona główna</a></li>
+                    <li><a href="history.html">Historia książki</a></li>
+                    <li><a href="genres.html">Gatunki literackie</a></li>
+                    <li><a href="care.html">Dbanie o książki</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="time.html">Aktualny czas</a></li>
+                    <li><a href="animations.html">Animacje</a></li>
+                </ul>
+            </nav>
+            <section id="data" style="font-size: xxx-large; text-align: center"></section>
+            <section id="zegarek" style="font-size: xxx-large; text-align: center"></section>
+            <p style="font-size: xx-large; text-align: center">Zmień kolor tła:</p>
+            <br>
+            <form method="post" name="background" style="text-align: center">
+                <input type="button" value="żółty" style="font-size: x-large" onclick="changeBackground('#FFF000')">
+                <input type="button" value="czarny" style="font-size: x-large" onclick="changeBackground('#000000')">
+                <input type="button" value="biały" style="font-size: x-large" onclick="changeBackground('#FFFFFF')">
+                <input type="button" value="zielony" style="font-size: x-large" onclick="changeBackground('#00FF00')">
+                <input type="button" value="niebieski" style="font-size: x-large" onclick="changeBackground('#0000FF')">
+                <input type="button" value="pomarańczowy" style="font-size: x-large" onclick="changeBackground('#FF8000')">
+                <input type="button" value="szary" style="font-size: x-large" onclick="changeBackground('#C0C0C0')">
+                <input type="button" value="czerwony" style="font-size: x-large" onclick="changeBackground('#FF0000')">
+            </form>
+            <footer>
+                <p>&copy; 2025 Mateusz Niebrzydowski</p>
+            </footer>
+        </div>
+    </body>
+</html>
