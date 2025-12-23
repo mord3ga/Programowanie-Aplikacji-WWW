@@ -1,0 +1,70 @@
+<div class="row">
+    <section class="left">
+        <h2>1. Czystość i higiena</h2>
+        <p>Książki, podobnie jak inne przedmioty, wymagają czystości:</p>
+        <ul>
+            <li>Myj ręce przed czytaniem, aby uniknąć tłustych plam.</li>
+            <li>Regularnie odkurzaj grzbiety książek, gdzie gromadzi się kurz.</li>
+            <li>Nie jedz i nie pij bezpośrednio nad książką.</li>
+        </ul>
+        <br>
+        <h2>2. Przechowywanie</h2>
+        <p>Sposób ustawienia książek na półce ma znaczenie:</p>
+        <ul>
+            <li>Nie ściskaj książek zbyt mocno, aby nie uszkodzić okładek.</li>
+            <li>Wysokie książki kładź na płasko, aby grzbiet się nie deformował.</li>
+        </ul>
+        <br>
+        <h2>3. Zakładki</h2>
+        <p>Zaznaczanie strony, na której skończyliśmy czytać:</p>
+        <ul>
+            <li>Używaj dedykowanych zakładek (papierowych, materiałowych).</li>
+            <li>Unikaj zaginania rogów ("oślich uszu") i odkładania książki grzbietem do góry.</li>
+        </ul>
+        <br>
+    </section>
+    <br>
+    <section class="right">
+        <h2>4. Warunki otoczenia</h2>
+        <p>Papier jest wrażliwy na czynniki zewnętrzne:</p>
+        <section class="highlight">
+            <p><b>Wilgotność:</b> Zbyt wysoka sprzyja pleśni, zbyt niska wysusza papier (kruszenie).</p>
+            <p><b>Światło:</b> Unikaj bezpośredniego słońca, które powoduje blaknięcie okładek i żółknięcie stron.</p>
+            <p><b>Temperatura:</b> Najlepsza jest stała temperatura pokojowa.</p>
+        </section>
+        <br>
+        <h2>5. Naprawa</h2>
+        <p>Jeśli książka ulegnie zniszczeniu, nie używaj zwykłej taśmy klejącej:</p>
+        <ul>
+            <li>Zwykła taśma z czasem żółknie i niszczy papier.</li>
+            <li>Używaj specjalistycznych taśm introligatorskich lub klejów bezkwasowych.</li>
+        </ul>
+        <br>
+        <h2>6. Transport</h2>
+        <p>Jeśli zabierasz książkę w podróż, zabezpiecz ją przed uszkodzeniem w torbie lub plecaku, np. używając etui.</p>
+    </section>
+</div>
+<br>
+<section class="center">
+    <h2>7. Typowe problemy</h2>
+    <p>Jak rozpoznać, że Twoja biblioteczka jest zagrożona:</p>
+    <table>
+        <tr>
+            <th>Objaw</th>
+            <th>Przyczyna</th>
+        </tr>
+        <tr>
+            <td>Pofalowane strony</td>
+            <td>Zbyt wysoka wilgotność</td>
+        </tr>
+        <tr>
+            <td>Żółte plamy (tzw. lisi zgryz)</td>
+            <td>Zakwaszenie papieru, starość</td>
+        </tr>
+        <tr>
+            <td>Wyblakły grzbiet</td>
+            <td>Zbyt duża ekspozycja na słońce</td>
+        </tr>
+    </table>
+</section>
+
